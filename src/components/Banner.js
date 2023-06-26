@@ -111,7 +111,7 @@ const Banner = () => {
             whileInView={'show'}
             className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'
           >
-            <img src={Image} alt='Tomas Gaitan' />
+            <img className='img-banner' src={Image} alt='Tomas Gaitan' />
           </motion.div>
         </div>
       </div>
