@@ -2,7 +2,7 @@ import React from 'react';
 // images
 import Image from '../assets/tomasgaitan.PNG';
 // icons
-import { FaComments, FaDownload, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaComments, FaDownload, FaGithub, FaHubspot, FaInstagram, FaLinkedin } from 'react-icons/fa';
 // type animation
 import { TypeAnimation } from 'react-type-animation';
 // motion
@@ -98,6 +98,9 @@ const Banner = () => {
               </a>
               <a href='https://www.instagram.com/tomasgaitann' target='_BLANK'>
                 <FaInstagram/>
+              </a>
+              <a href='https://app.hubspot.com/connect/member/tomasgaitan' target='_BLANK'>
+                <FaHubspot/>
               </a>
               <a href='mailto:tomasagustingaitan@gmail.com' target='_BLANK'>
                 <FaComments/>
