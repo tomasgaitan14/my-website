@@ -28,6 +28,7 @@ const Experience = () => {
             <h3 className='h3 mb-4'>
               HAL Company 🇦🇷
             </h3>
+            <h5 style={{color: "#8f8f98"}}>02 May 2022 - 07 July 2023</h5>
             <h4>- Implementation Specialist & APIs integration (HubSpot)</h4>
             <h4>- Accompany, guide and teach customers on best practices for their CRM.</h4>
             <h4>- Full implementation of HubSpot tech stack (Marketing, Sales, Service, Operations, CMS).</h4>
@@ -39,8 +40,11 @@ const Experience = () => {
             <h3 className='h3 mb-4 mt-4'>
               Motorflash Solutions 🇪🇸
             </h3>
-            <h4>- Implementation Specialist & APIs integration (HubSpot)</h4>
-            <h4>- Maintenance and creation of new functionalities using PHP.</h4>
+            <h5 style={{color: "#8f8f98"}}>01 Dec 2022 - 30 April 2023</h5>
+            <h4>- Develop and maintain web applications using PHP and the Symfony framework.</h4>
+            <h4>- Collaborate with the development team to design and implement efficient and high quality technical solutions.</h4>
+            <h4>- Optimize the performance of existing applications and troubleshoot technical issues.</h4>
+            <h4>- Research and evaluate new technologies and tools related to web development.</h4>
             <br/>
             <p>Technologies used <span className='text-accent'>(PHP, Symfony, Docker, APIs, Git)</span></p>
           </motion.div>
