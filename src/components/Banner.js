@@ -41,9 +41,9 @@ const Banner = () => {
               <span className='text-white mr-4'>I am a</span>
               <TypeAnimation
                 sequence={[
-                  'Full Stack Developer',
+                  'Software Engineer',
                   2000,
-                  'HubSpot Expert',
+                  'CRM Expert',
                   2000,
                 ]}
                 speed={50}
@@ -90,19 +90,19 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
             >
-              <a href='https://www.linkedin.com/in/tomasgaitan/' target='_BLANK'>
+              <a href='https://www.linkedin.com/in/tomasgaitan/' target='_BLANK' rel="noreferrer">
                 <FaLinkedin/>
               </a>
-              <a href='https://github.com/tomasgaitan14' target='_BLANK'>
+              <a href='https://github.com/tomasgaitan14' target='_BLANK' rel="noreferrer">
                 <FaGithub />
               </a>
-              <a href='https://www.instagram.com/tomasgaitann' target='_BLANK'>
+              <a href='https://www.instagram.com/tomasgaitann' target='_BLANK' rel="noreferrer">
                 <FaInstagram/>
               </a>
-              <a href='https://app.hubspot.com/connect/member/tomasgaitan' target='_BLANK'>
+              <a href='https://app.hubspot.com/connect/member/tomasgaitan' target='_BLANK' rel="noreferrer">
                 <FaHubspot/>
               </a>
-              <a href='mailto:tomasagustingaitan@gmail.com' target='_BLANK'>
+              <a href='mailto:tomasagustingaitan@gmail.com' target='_BLANK' rel="noreferrer">
                 <FaComments/>
               </a>
             </motion.div>
